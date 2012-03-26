@@ -1,7 +1,7 @@
 # Twitter URL Regexen
 
 This is an attempt to extract the URL-matching regular expression(s) from the
-`twitter-text-rb`[1] project and port them to Python.
+[`twitter-text-rb`][1] project and port them to Python.
 
 ## What? Why?
 
@@ -14,8 +14,9 @@ user's tweet will be replaced by shortened t.co URLs.
 This is mind-bendingly stupid.
 
 To alleviate some of the pain, Twitter has kindly provided reference
-implementations for this behavior for Ruby[1], JavaScript[2], and Java[3],
-along with a suite of conformance tests[4] for third party implementers.
+implementations for this behavior for [Ruby][1], [JavaScript][2], and
+[Java][3], along with a [suite of conformance tests][4] for third party
+implementers.
 
 Unfortunately, they do not provide and maintain a reference implementation for
 Python, and those that exist are incomplete (this particular little lib very
@@ -25,7 +26,7 @@ much included).
 
 This project, `twitter-url-regexen`, is just an attempt to extract the
 URL-related regular expressions from the `twitter-text-rb` source code
-(specifically, [lib/regex.rb][5]) and port them to Python.  Nothing more,
+(specifically, [`lib/regex.rb`][5]) and port them to Python.  Nothing more,
 nothing less.
 
 ## How good is this port?
@@ -44,6 +45,20 @@ This library does not attempt to duplicate that logic, so some of the failures
 stem from that basic incompatibility.
 
 Fuck if I know about the other ones.
+
+## Running the tests
+
+First, get the conformance tests:
+
+    git submodule update --init
+
+Make sure you have all of the requirements (just `py.test`):
+
+    pip install -r requirements.txt
+
+Run the tests:
+
+    py.test
 
 ## See Also
 
