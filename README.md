@@ -51,8 +51,8 @@ Twitter's own docs about this inane misfeature:
 https://dev.twitter.com/docs/tco-url-wrapper/how-twitter-wrap-urls
 
 
-[1] https://github.com/twitter/twitter-text-rb
-[2] https://github.com/twitter/twitter-text-js
-[3] https://github.com/twitter/twitter-text-java
-[4] https://github.com/twitter/twitter-text-conformance
-[5] https://github.com/twitter/twitter-text-rb/blob/master/lib/regex.rb
+[1]: https://github.com/twitter/twitter-text-rb
+[2]: https://github.com/twitter/twitter-text-js
+[3]: https://github.com/twitter/twitter-text-java
+[4]: https://github.com/twitter/twitter-text-conformance
+[5]: https://github.com/twitter/twitter-text-rb/blob/master/lib/regex.rb
