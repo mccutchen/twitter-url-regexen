@@ -1,3 +1,9 @@
 [submodule "tests/twitter-text-conformance"]
 	path = tests/twitter-text-conformance
 	url = https://github.com/twitter/twitter-text-conformance.git
+[submodule "alt_impls/twitter-text-python"]
+	path = alt_impls/twitter-text-python
+	url = https://github.com/BonsaiDen/twitter-text-python.git
+[submodule "alt_impls/twitter-text-py"]
+	path = alt_impls/twitter-text-py
+	url = https://github.com/dryan/twitter-text-py.git
