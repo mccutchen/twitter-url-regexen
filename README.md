@@ -52,13 +52,19 @@ First, get the conformance tests:
 
     git submodule update --init
 
-Make sure you have all of the requirements (just `py.test`):
+Make sure you have all of the requirements (`py.test` and `pyyaml`):
 
-    pip install -r requirements.txt
+    pip install -r test_requirements.txt
 
 Run the tests:
 
     py.test
+
+If you'd like to test some alternate Python implentations
+([twitter-text-python][6] and [twitter-text-py][7]) of the same idea,
+you'll have to run those tests a little more manually:
+
+    py.test tests/alt*
 
 ## See Also
 
@@ -71,3 +77,5 @@ https://dev.twitter.com/docs/tco-url-wrapper/how-twitter-wrap-urls
 [3]: https://github.com/twitter/twitter-text-java
 [4]: https://github.com/twitter/twitter-text-conformance
 [5]: https://github.com/twitter/twitter-text-rb/blob/master/lib/regex.rb
+[6]: https://github.com/BonsaiDen/twitter-text-python
+[7]: https://github.com/dryan/twitter-text-py
