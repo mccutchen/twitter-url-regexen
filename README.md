@@ -52,9 +52,9 @@ First, get the conformance tests:
 
     git submodule update --init
 
-Make sure you have all of the requirements (just `py.test`):
+Make sure you have all of the requirements (`py.test` and `pyyaml`):
 
-    pip install -r requirements.txt
+    pip install -r test_requirements.txt
 
 Run the tests:
 
